@@ -2,21 +2,21 @@ import numpy as np
 import theano 
 import theano.tensor as T
 import os
-import keras
+# import keras
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from keras.datasets import mnist
+# from keras.datasets import mnist
 #import mnist
 import cPickle as pickle
 from theano.sandbox.rng_mrg import MRG_RandomStreams
 import operator
 import sys
 sys.path.append("/u/ywu/Documents/eval_GAN/training_GAN/iwae/")
-import exp ## not necessary if do not use iwae models
-import lasagne
+# import exp ## not necessary if do not use iwae models
+# import lasagne
 import progressbar
-from nn import*
+# from nn import*
 
 np.random.seed(123)
 
